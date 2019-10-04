@@ -2,6 +2,7 @@ package com.example.labexercise4;
 
 public abstract class Shape {
     protected int x, y;
+    String color = "blue";
 
     protected String color="blue";
 
@@ -13,6 +14,7 @@ public abstract class Shape {
     public Shape(){
         x=0;
         y=0;
+
     }
 
     public int getX() {
