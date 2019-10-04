@@ -2,6 +2,7 @@ package com.example.labexercise4;
 
 public abstract class Shape {
     protected int x, y;
+    protected String color = "matcha green";
 
     public Shape(int x, int y){
         this.x=x;
