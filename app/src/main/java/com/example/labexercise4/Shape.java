@@ -4,15 +4,13 @@ public abstract class Shape {
     protected int x, y;
     protected String color="blue";
 
-    public Shape(int x, int y{
+    public Shape(int x, int y){
         this.x=x;
-
         this.y=y;
     }
 
     public Shape(){
         x=0;
-
         y=0;
     }
 
