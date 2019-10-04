@@ -2,6 +2,7 @@ package com.example.labexercise4;
 
 public abstract class Shape {
     protected int x, y;
+    String color = "blue";
 
     public Shape(int x, int y){
         this.x=x;
@@ -11,6 +12,7 @@ public abstract class Shape {
     public Shape(){
         x=0;
         y=0;
+
     }
 
     public int getX() {
