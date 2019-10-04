@@ -2,7 +2,8 @@ package com.example.labexercise4;
 
 public abstract class Shape {
     protected int x, y;
-    protected String color = "$PUT_YOUR_CHOICE_OF_COLOR";
+
+    protected String color="blue";
 
     public Shape(int x, int y){
         this.x=x;
